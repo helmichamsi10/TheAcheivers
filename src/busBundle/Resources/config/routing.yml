@@ -1,0 +1,15 @@
+bus_homepage:
+    path:     /
+    defaults: { _controller: busBundle:Default:index }
+
+addBusAction:
+    path:     /addBus
+    defaults: { _controller: busBundle:bus:addBus }
+
+getAllBusAction:
+    path:     /getAllBus
+    defaults: { _controller: busBundle:bus:getAllBus }
+
+deleteBusAction:
+    path:     /deleteBus/{id}
+    defaults: { _controller: busBundle:bus:deleteBus }
